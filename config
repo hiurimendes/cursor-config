@@ -1,0 +1,40 @@
+{ 
+  "files.eol": "\n",
+  "javascript.suggest.autoImports": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "liveServer.settings.donotShowInfoMsg": true,
+  /**** Terminal ****/
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+  "terminal.integrated.tabs.enabled": false,
+  /**** Editor ****/
+  "editor.fontSize": 14,
+  "editor.lineHeight": 1.8,
+  "editor.fontFamily": "JetBrains Mono",
+  // "editor.wordWrap": "bounded",
+  "editor.tabSize": 2,
+  "editor.rulers": [
+    80,
+    120
+  ],
+  "editor.semanticHighlighting.enabled": true,
+  "editor.formatOnSave": true,
+  "editor.scrollbar.vertical": "hidden",
+  /**** IDE ****/
+  "breadcrumbs.enabled": false,
+  "workbench.statusBar.visible": true,
+  "workbench.activityBar.orientation": "vertical",
+  "workbench.layoutControl.enabled": false,
+  "workbench.colorTheme": "Min Light",
+  "workbench.iconTheme": "symbols",
+  "workbench.activityBar.location": "hidden",
+  "window.commandCenter": false,
+  "window.menuBarVisibility": "compact",
+  "explorer.sortOrder": "foldersNestsFiles",
+  "explorer.fileNesting.patterns": {
+    "package.json": ".eslint*, prettier*, tsconfig*, vite*, pnpm-lock*, bun.lockb, nest*",
+    "tailwind.config.js": "tailwind.config*, postcss.config*",
+    ".env.local": ".env*",
+    ".env": ".env*"
+  },
+}
