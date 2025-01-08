@@ -1,4 +1,4 @@
-{ 
+{
   "files.eol": "\n",
   "javascript.suggest.autoImports": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
@@ -13,28 +13,32 @@
   "editor.fontFamily": "JetBrains Mono",
   // "editor.wordWrap": "bounded",
   "editor.tabSize": 2,
-  "editor.rulers": [
-    80,
-    120
-  ],
+  "editor.rulers": [80, 120],
   "editor.semanticHighlighting.enabled": true,
   "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
   "editor.scrollbar.vertical": "hidden",
   /**** IDE ****/
   "breadcrumbs.enabled": false,
   "workbench.statusBar.visible": true,
   "workbench.activityBar.orientation": "vertical",
-  "workbench.layoutControl.enabled": false,
   "workbench.colorTheme": "Min Light",
   "workbench.iconTheme": "symbols",
   "workbench.activityBar.location": "hidden",
-  "window.commandCenter": false,
-  "window.menuBarVisibility": "compact",
   "explorer.sortOrder": "foldersNestsFiles",
+  "explorer.compactFolders": false,
   "explorer.fileNesting.patterns": {
     "package.json": ".eslint*, prettier*, tsconfig*, vite*, pnpm-lock*, bun.lockb, nest*",
     "tailwind.config.js": "tailwind.config*, postcss.config*",
     ".env.local": ".env*",
     ".env": ".env*"
   },
+  "cSpell.language": "en,pt-BR",
+  "cSpell.userWords": ["Firestore"],
+  "window.menuBarVisibility": "compact",
+  "window.commandCenter": false,
+  "diffEditor.hideUnchangedRegions.enabled": true,
+  "workbench.layoutControl.enabled": false
 }
